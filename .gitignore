@@ -1,0 +1,30 @@
+# Build outputs and Go caches
+**/.workbench-verify/
+**/.baseline-isolated/
+**/.baseline-resume-*/
+**/gocache/
+**/modcache/
+**/node_modules/
+**/.opencode/node_modules/
+**/bin/
+**/dist/
+**/web/app.wasm
+*.wasm
+*.exe
+*.test
+*.out
+
+# Machine-specific and potentially private state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+**/tmp/
+**/sessions/
+**/secrets/
+**/credentials/
+**/.opencode/recorded/
+**/kol-workbench-v0.1.zip
+**/kolmafia-go*.zip
